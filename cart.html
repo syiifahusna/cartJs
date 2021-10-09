@@ -27,7 +27,7 @@
         <div class="nav-link" id="nav-link">
             <ul>
                 <li class="link"><a href="index.html" >Products</a></li>
-                <li class="link"> <a href="cart.html" ><i class="fas fa-shopping-cart"></i> Cart (0)</a></li>
+                <li class="link"> <a href="cart.html" ><i class="fas fa-shopping-cart"></i> Cart (<span class="cart">0</span>)</a></li>
             </ul>
         </div>
     </header>
@@ -35,27 +35,26 @@
 
     <section>
         <div class="cart-container">
-            <div class="box">
-                <img src="" alt="" class="product-img">
+            <div class="box" id="product0">
                 <div class="product">
                     <div class="product-info">
-                        <div class="product-name">Woman Shoe</div>
-                        <div class="price">Price: RM 25</div>
-                        <div class="delivery">Delivery: RM 5</div>
-                        <div class="total-price">Total Price: RM 50</div>
+                        <div class="name">Woman Shoe</div>
+                        <div>RM <span class="class">25.00</span></div>
+                        <div class="delivery">Delivery: Free</div>
+                        <div class="total-price">Total Price: RM 50.00</div>
                     </div>
                     <div class="quantity">
                         <button class="btn-decrement">-</button>
                             <span class="item-quantity">1</span>
                         <button class="btn-increment">+</button>
                     </div>                    
-                    <button class="btn-remove"><i class="fas fa-trash"></i> Remove</button>
+                    <button class="btn-remove"><i class="fas fa-trash"></i>Remove</button>
                 </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="total-payment">Total Payment: RM 100</div>
+        <div class="total-payment" id="total-payment">Total Payment: RM 100.00</div>
     </section>
 
     <footer>
