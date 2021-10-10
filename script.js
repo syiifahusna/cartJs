@@ -242,7 +242,7 @@ function addMinusItem(){
              localStorage.setItem("totalCart",newTotalCart);
  
              lblCart = document.getElementsByClassName("cart");
-             lblCart.innerHTML = localStorage.getItem("totalCart");
+             lblCart[0].innerHTML = localStorage.getItem("totalCart");
             
             itemQuantity[i].innerHTML = item;
             currentQuantity = itemQuantity[i].innerHTML;      
@@ -282,7 +282,7 @@ function addMinusItem(){
             localStorage.setItem("totalCart",newTotalCart);
  
             lblCart = document.getElementsByClassName("cart");
-            lblCart.innerHTML = localStorage.getItem("totalCart");
+            lblCart[0].innerHTML = localStorage.getItem("totalCart");
 
             itemQuantity[i].innerHTML = item;
             currentQuantity = itemQuantity[i].innerHTML;      
